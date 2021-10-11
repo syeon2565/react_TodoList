@@ -17,9 +17,12 @@
       margin-left: 0.5rem;
       flex: 1;
     }
-    &.checkend {
+    &.checked {
       svg {
-        color: #adb5bd;
+        color: #22b8cf;
+      }
+      .text{
+        color:#adb5bd;
         text-decoration: line-through;
       }
     }
